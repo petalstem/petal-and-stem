@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Petal and Stem</title>
+
+  <meta name="description"
+    content="Petal and Stem creates handmade satin ribbon and fuzzy wire floral bouquets in Lupon, Davao Oriental. Beautiful, long-lasting floral gifts for graduations, Valentine's Day, Mother's Day, anniversaries, and special occasions.">
+
+  <meta property="og:title" content="Petal and Stem">
+  <meta property="og:description"
+    content="Handcrafted satin ribbon and fuzzy wire floral bouquets made to last forever. Handmade with love in Lupon.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1487070183336-b863922373d4?w=1200&q=80">
+
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" type="image/jpeg" href="assets/img/icon_logo.jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+
+  <header class="site-header" id="siteHeader">
+
+    <nav class="nav" aria-label="Main navigation">
+
+      <a href="#home" class="nav__brand" data-brand-name>
+        Petal and Stem
+      </a>
+
+      <ul class="nav__links" id="navLinks">
+
+        <li>
+          <a href="#home" class="nav-link">Home</a>
+        </li>
+
+        <li>
+          <a href="#shop" class="nav-link">Shop</a>
+        </li>
+
+        <li>
+          <a href="#collections" class="nav-link">Collections</a>
+        </li>
+
+        <li>
+          <a href="#about" class="nav-link">About</a>
+        </li>
+
+        <li>
+          <a href="#custom-orders" class="nav-link">Custom Bouquets</a>
+        </li>
+
+        <li>
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+
+      </ul>
+
+      <div class="nav__actions">
+
+        <button class="icon-btn" id="cartToggle" aria-label="Open bouquet bag" aria-haspopup="dialog">
+          <i class="fa-solid fa-basket-shopping" aria-hidden="true"></i>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+
+        <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false"
+          aria-controls="navLinks">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <main id="main-content">
+
+    <!-- ============ HERO ============ -->
+
+    <section class="hero" id="home">
+
+      <div class="hero__inner">
+
+        <div class="hero__text reveal">
+
+          <h1 class="hero__headline">
+            Handcrafted blooms that last forever.
+          </h1>
+
+          <p class="hero__sub">
+            Beautiful floral gifts, carefully handmade from satin ribbons
+            and fuzzy wire — created to celebrate special moments and
+            become keepsakes long after the occasion has passed.
+          </p>
+
+          <div class="hero__cta">
+
+            <a href="#shop" class="btn btn--primary">
+              Shop the Collection
+            </a>
+
+            <a href="#custom-orders" class="btn btn--ghost">
+              Reserve a Custom Bouquet
+            </a>
+
+          </div>
+
+          <p class="hero__location">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            Handmade with love in Lupon
+          </p>
+
+        </div>
+
+        <div class="hero__visual reveal">
+
+          <div class="hero__shape" aria-hidden="true"></div>
+
+          <img src="assets/img/logo.jpg" alt="Beautiful handmade floral bouquet" class="hero__img">
+
+          <div class="hero__badge">
+
+            <span class="hero__badge-num">
+              Handmade
+            </span>
+
+            <span class="hero__badge-label">
+              Flowers made to be kept
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ============ FEATURED CATEGORIES ============ -->
+
+    <section class="categories" aria-labelledby="categories-heading">
+
+      <div class="section-inner">
+
+        <h2 id="categories-heading" class="section-heading">
+          Find something special
+        </h2>
+
+        <div class="categories__grid">
+
+          <a href="#shop" class="cat-card cat-card--tall" data-filter-target="bouquets">
+
+            <img src="assets/img/products/Purple_Satin_Rose.jpg" alt=" Purple Satin Rose" loading="lazy">
+
+            <div class="cat-card__body">
+
+              <h3>
+                Purple Satin Rose
+              </h3>
+
+              <p>
+                Elegant handmade blooms with a beautiful soft shine.
+              </p>
+
+            </div>
+
+          </a>
+
+          <a href="#shop" class="cat-card" data-filter-target="arrangements">
+
+            <img src="assets/img/products/blue.jpg" alt="Fuzzy wire flower arrangement" loading="lazy">
+
+            <div class="cat-card__body">
+
+              <h3>
+                Fuzzy Wire Florals
+              </h3>
+
+              <p>
+                Playful, textured flowers carefully shaped by hand.
+              </p>
+
+            </div>
+
+          </a>
+
+          <a href="#shop" class="cat-card" data-filter-target="gifts">
+
+            <img src="assets/img/products/flower-blue.jpg" alt="Seasonal floral gift set" loading="lazy">
+
+            <div class="cat-card__body">
+
+              <h3>
+                Seasonal Special Sets
+              </h3>
+
+              <p>
+                Limited collections made for life's special occasions.
+              </p>
+
+            </div>
+
+          </a>
+
+          <a href="#custom-orders" class="cat-card">
+
+            <img src="assets/img/products/pink.jpg" alt="Custom handmade floral bouquet" loading="lazy">
+
+            <div class="cat-card__body">
+
+              <h3>
+                Custom Bouquets
+              </h3>
+
+              <p>
+                Tell us your colors, occasion, and budget.
+                </p>
+
+            </div>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ============ SHOP / PRODUCTS ============ -->
+
+    <section class="shop" id="shop" aria-labelledby="shop-heading">
+
+      <div class="section-inner">
+
+        <div class="shop__header">
+
+          <h2 id="shop-heading" class="section-heading">
+            Shop the studio
+          </h2>
+
+          <p class="section-lead">
+            Explore our handcrafted floral collections, made with care
+            for gifting, celebrating, and keeping.
+          </p>
+
+        </div>
+
+        <div class="shop__controls">
+
+          <div class="filter-group" id="filterGroup" role="group" aria-label="Filter products by category">
+
+            <button class="filter-btn is-active" data-filter="all">
+              All
+            </button>
+
+            <button class="filter-btn" data-filter="bouquets">
+              Satin Ribbon
+            </button>
+
+            <button class="filter-btn" data-filter="arrangements">
+              Fuzzy Wire
+            </button>
+
+            <button class="filter-btn" data-filter="gifts">
+              Special Sets
+            </button>
+
+            <button class="filter-btn" data-filter="custom">
+              Custom
+            </button>
+
+          </div>
+
+          <div class="search-group">
+
+            <label for="productSearch" class="visually-hidden">
+              Search products
+            </label>
+
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+
+            <input type="text" id="productSearch" placeholder="Search bouquets, colors, gifts…">
+
+          </div>
+
+        </div>
+
+        <div class="products__grid" id="productsGrid"></div>
+
+        <p class="products__empty" id="productsEmpty" hidden>
+          No bouquets matched your search — try a different word.
+        </p>
+
+        <div class="products__load-more" id="loadMoreWrap" hidden>
+          <button type="button" class="btn btn--ghost" id="showMoreBtn">
+            See More
+          </button>
+        </div>
+
+    </section>
+
+    <!-- ============ WHY CHOOSE US ============ -->
+
+    <section class="benefits" aria-labelledby="benefits-heading">
+
+      <div class="section-inner">
+
+        <h2 id="benefits-heading" class="section-heading">
+          Why choose Petal and Stem
+        </h2>
+
+        <div class="benefits__grid">
+
+          <div class="benefit">
+
+            <i class="fa-solid fa-hand-holding-heart" aria-hidden="true"></i>
+
+            <h3>
+              Handmade with love
+            </h3>
+
+            <p>
+              Each flower is carefully shaped and finished by hand.
+            </p>
+
+          </div>
+
+          <div class="benefit">
+
+            <i class="fa-solid fa-seedling" aria-hidden="true"></i>
+
+            <h3>
+              Made to last
+            </h3>
+
+            <p>
+              Unlike fresh flowers, our creations are designed to be
+              treasured long after the special occasion.
+            </p>
+
+          </div>
+
+          <div class="benefit">
+
+            <i class="fa-solid fa-gift" aria-hidden="true"></i>
+
+            <h3>
+              Made for gifting
+            </h3>
+
+            <p>
+              Thoughtfully crafted floral gifts for people and moments
+              that matter.
+            </p>
+
+          </div>
+
+          <div class="benefit">
+
+            <i class="fa-solid fa-palette" aria-hidden="true"></i>
+
+            <h3>
+              Personalized creations
+            </h3>
+
+            <p>
+              Share your colors, occasion, and ideas and we'll create
+              something especially for you.
+            </p>
+
+          </div>
+
+          <div class="benefit">
+
+            <i class="fa-solid fa-heart" aria-hidden="true"></i>
+
+            <h3>
+              A keepsake to remember
+            </h3>
+
+            <p>
+              More than a bouquet — something you can keep as a reminder
+              of a special moment.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ============ ABOUT / OUR STORY ============ -->
+
+    <section class="story" id="about" aria-labelledby="story-heading">
+
+      <div class="section-inner story__inner">
+
+        <div class="story__image">
+          <video autoplay muted loop playsinline style="width: 100%; height: 50%; object-fit: cover; ">
+            <source src="assets/img/products/makin.mp4" type="video/mp4">
+          </video>
+
+        </div>
+
+        <div class="story__text">
+
+          <h2 id="story-heading" class="section-heading">
+            Our story
+          </h2>
+          <p>The days started to blur together. I spent most of my time applying for jobs and wondering what would come
+            next. After being unemployed longer than I expected, I wanted to do something meaningful with my time.</p>
+
+          <p> The idea of starting a business came slowly. If I couldn't find an opportunity in the corporate world, I
+            thought, why not create one myself?</p>
+
+          <p>
+            I've always loved flowers, so making handmade bouquets felt like a natural choice. Instead of constantly
+            looking for a job, I was finally creating something of my own.
+          </p>
+
+          <p>
+            It wasn't a big business, and orders didn't come every day. Most came during graduations, holidays, and
+            special occasions. But seeing someone happy with a bouquet I made made it all worth it.
+          </p>
+
+          <p>
+            I realized I wasn't just filling my time. I had found something I genuinely enjoyed, and that gave me a
+            sense of purpose again.
+          </p>
+
+          <p>
+            Handmade with love in Lupon, Petal and Stem creates floral
+            keepsakes for people who want their flowers to last beyond
+            the moment.
+          </p>
+
+          <a href="#contact" class="btn btn--outline">
+            Get in touch
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ============ CUSTOM ORDERS ============ -->
+
+    <section class="custom-cta" id="custom-orders" aria-labelledby="custom-heading">
+
+      <div class="section-inner custom-cta__inner">
+
+        <div class="custom-cta__text">
+
+          <h2 id="custom-heading">
+            Have a bouquet in mind?
+          </h2>
+
+          <p>
+            Tell us what you're celebrating, your preferred colors,
+            and your budget. We'll help turn your idea into a handmade
+            bouquet made just for you.
+          </p>
+
+          <button class="btn btn--primary" id="openCustomOrder">
+            Reserve a Custom Bouquet
+          </button>
+
+          <p class="custom-cta__note">
+            <i class="fa-brands fa-facebook-messenger" aria-hidden="true"></i>
+
+            No complicated designing — just tell us what you have in mind.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ============ COLLECTIONS / OCCASIONS ============ -->
+
+    <section class="collections" id="collections" aria-labelledby="collections-heading">
+
+      <div class="section-inner">
+
+        <h2 id="collections-heading" class="section-heading">
+          Flowers for every occasion
+        </h2>
+
+        <div class="collections__grid">
+
+          <a href="#shop" class="occasion-card">
+
+            <img src="assets/img/products/birthday-flower.jpg"
+              alt="Birthday floral gift" loading="lazy">
+
+            <span>
+              Birthday
+            </span>
+
+          </a>
+
+
+          <a href="#shop" class="occasion-card">
+
+            <img src="assets/img/products/graduation-flower.jpg"
+              alt="Graduation floral gift" loading="lazy">
+
+            <span>
+              Graduation
+            </span>
+
+          </a>
+
+          <a href="#shop" class="occasion-card">
+
+            <img src="https://images.unsplash.com/photo-1520763185298-1b434c919102?w=500&q=80"
+              alt="Mother's Day floral gift" loading="lazy">
+
+            <span>
+              Mother's Day
+            </span>
+
+          </a>
+
+          <a href="#shop" class="occasion-card">
+
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=500&q=80"
+              alt="Teachers' Day floral gift" loading="lazy">
+
+            <span>
+              Teachers' Day
+            </span>
+
+          </a>
+
+    
+          <a href="#custom-orders" class="occasion-card">
+
+            <img src="https://images.unsplash.com/photo-1465146633011-14f8e0781093?w=500&q=80"
+              alt="Custom floral bouquet" loading="lazy">
+
+            <span>
+              Custom
+            </span>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+
+    <section class="testimonials" aria-labelledby="testimonials-heading">
+
+      <div class="section-inner">
+
+        <h2 id="testimonials-heading" class="section-heading">
+          What customers say
+        </h2>
+
+        <p class="section-lead section-lead--note">
+          Customer reviews will appear here as Petal and Stem grows.
+        </p>
+
+        <div class="testimonials__grid">
+
+          <figure class="testimonial-card">
+
+            <div class="stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+
+            <blockquote>
+              "The bouquet was even prettier than the photos, and it's
+              still on my desk months later."
+            </blockquote>
+
+            <figcaption>
+              — Customer
+            </figcaption>
+
+          </figure>
+
+          <figure class="testimonial-card">
+
+            <div class="stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+
+            <blockquote>
+              "I asked for something in dusty rose and sage, and they
+              made it exactly how I imagined."
+            </blockquote>
+
+            <figcaption>
+              — Customer
+            </figcaption>
+
+          </figure>
+
+          <figure class="testimonial-card">
+
+            <div class="stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+
+            <blockquote>
+              "A beautiful handmade gift that I can keep forever."
+            </blockquote>
+
+            <figcaption>
+              — Customer
+            </figcaption>
+
+          </figure>
+
+          <figure class="testimonial-card">
+
+            <div class="stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+
+            <blockquote>
+              "The colors were beautiful and the handmade details made
+              the bouquet feel so personal."
+            </blockquote>
+
+            <figcaption>
+              — Customer
+            </figcaption>
+
+          </figure>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ============ INSTAGRAM GALLERY ============ -->
+
+    <section class="gallery" aria-labelledby="gallery-heading">
+
+      <div class="section-inner">
+
+        <h2 id="gallery-heading" class="section-heading">
+          Follow our floral journey
+        </h2>
+
+        <p class="section-lead">
+          See our latest creations and seasonal collections on Instagram.
+        </p>
+
+        <div class="gallery__grid">
+
+          <a class="gallery__item" href="https://instagram.com/yourflowerstudio" target="_blank"
+            rel="noopener noreferrer" aria-label="View Petal and Stem on Instagram">
+
+            <img src="https://images.unsplash.com/photo-1487530811176-3780de880c2d?w=500&q=80" alt="Floral creation"
+              loading="lazy">
+
+            <span class="gallery__overlay">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </span>
+
+          </a>
+
+          <!-- <a class="gallery__item" href="https://instagram.com/yourflowerstudio" target="_blank"
+            rel="noopener noreferrer" aria-label="View Petal and Stem on Instagram">
+
+            <img src="https://images.unsplash.com/photo-1523694576729-d9111d3cc1e5?w=500&q=80"
+              alt="Handmade floral arrangement" loading="lazy">
+
+            <span class="gallery__overlay">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </span>
+
+          </a> -->
+
+          <a class="gallery__item" href="https://instagram.com/yourflowerstudio" target="_blank"
+            rel="noopener noreferrer" aria-label="View Petal and Stem on Instagram">
+
+            <img src="https://images.unsplash.com/photo-1502741224143-90386d7f8c82?w=500&q=80" alt="Floral gift"
+              loading="lazy">
+
+            <span class="gallery__overlay">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </span>
+
+          </a>
+
+          <a class="gallery__item" href="https://instagram.com/yourflowerstudio" target="_blank"
+            rel="noopener noreferrer" aria-label="View Petal and Stem on Instagram">
+
+            <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=500&q=80" alt="Handcrafted bouquet"
+              loading="lazy">
+
+            <span class="gallery__overlay">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </span>
+
+          </a>
+
+          <a class="gallery__item" href="https://instagram.com/yourflowerstudio" target="_blank"
+            rel="noopener noreferrer" aria-label="View Petal and Stem on Instagram">
+
+            <img src="https://images.unsplash.com/photo-1455659817273-f96807779a8a?w=500&q=80" alt="Floral collection"
+              loading="lazy">
+
+            <span class="gallery__overlay">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </span>
+
+          </a>
+
+          <a class="gallery__item" href="https://instagram.com/yourflowerstudio" target="_blank"
+            rel="noopener noreferrer" aria-label="View Petal and Stem on Instagram">
+
+            <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=500&q=80"
+              alt="Flowers and handmade materials" loading="lazy">
+
+            <span class="gallery__overlay">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </span>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ============ NEWSLETTER ============ -->
+
+    <section class="newsletter" aria-labelledby="newsletter-heading">
+
+      <div class="section-inner newsletter__inner">
+
+        <h2 id="newsletter-heading">
+          Get a little more flower in your inbox.
+        </h2>
+
+        <p>
+          Occasional notes on new bouquets, seasonal collections,
+          special sets, and studio updates.
+        </p>
+
+        <form class="newsletter__form" id="newsletterForm" novalidate>
+
+          <label for="newsletterEmail" class="visually-hidden">
+            Email address
+          </label>
+
+          <input type="email" id="newsletterEmail" placeholder="you@email.com" required>
+
+          <button type="submit" class="btn btn--primary">
+            Subscribe
+          </button>
+
+        </form>
+
+        <p class="form-message" id="newsletterMessage" role="status" aria-live="polite"></p>
+
+      </div>
+
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+
+      <div class="section-inner contact__inner">
+
+        <div class="contact__details">
+
+          <h2 id="contact-heading" class="section-heading">
+            Let's create something beautiful.
+          </h2>
+
+          <p class="contact__intro">
+            Have a question, want to reserve a bouquet, or have a custom
+            idea? Send us a message and we'll be happy to help.
+          </p>
+
+          <ul class="contact__list">
+
+            <li>
+
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+
+              <a href="tel:+639303206067">
+                0930 320 6067
+              </a>
+
+            </li>
+
+            <li>
+
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+
+              <a href="mailto:PetalandStem@gmail.com">
+                PetalandStem@gmail.com
+              </a>
+
+            </li>
+
+            <li>
+
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+
+              Lupon, Davao Oriental, Philippines
+
+            </li>
+
+            <li>
+
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+
+              Open for orders online;
+              pickup/delivery by arrangement
+
+            </li>
+
+          </ul>
+
+          <!-- Replace yourflowerstudio with your actual Facebook Page username -->
+
+          <a href="https://www.facebook.com/profile.php?id=61580605341619" target="_blank" rel="noopener noreferrer"
+            class="btn btn--primary">
+
+            <i class="fa-brands fa-facebook-messenger" aria-hidden="true"></i>
+
+            Message Us on Messenger
+
+          </a>
+
+          <div class="social-links" aria-label="Social media">
+
+            <!-- Replace with your real Instagram username -->
+
+            <!-- <a href="https://instagram.com/yourflowerstudio" target="_blank" rel="noopener noreferrer"
+              aria-label="Instagram">
+
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+
+            </a> -->
+
+            <!-- Replace with your real Facebook Page -->
+
+            <a href="https://www.facebook.com/profile.php?id=61580605341619" target="_blank" rel="noopener noreferrer"
+              aria-label="Facebook">
+
+              <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+
+            </a>
+
+            <!-- Replace with your real TikTok username -->
+
+            <a href="https://www.tiktok.com/@christine.ramada?_r=1" target="_blank" rel="noopener noreferrer"
+              aria-label="TikTok">
+
+              <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+
+            </a>
+
+            <!-- Replace with your real Messenger Page username -->
+
+            <!-- <a href="https://www.facebook.com/messages/t/996560610206898" target="_blank" rel="noopener noreferrer"
+              aria-label="Messenger">
+
+              <i class="fa-brands fa-facebook-messenger" aria-hidden="true"></i>
+
+            </a> -->
+
+          </div>
+
+        </div>
+
+        <form class="contact__form" id="contactForm" novalidate>
+
+          <div class="form-row">
+
+            <label for="contactName">
+              Name
+            </label>
+
+            <input type="text" id="contactName" placeholder="Your name" required>
+
+            <span class="form-error" id="contactNameError"></span>
+
+          </div>
+
+          <div class="form-row">
+
+            <label for="contactEmail">
+              Email
+            </label>
+
+            <input type="email" id="contactEmail" placeholder="you@email.com" required>
+
+            <span class="form-error" id="contactEmailError"></span>
+
+          </div>
+
+          <div class="form-row">
+
+            <label for="contactMessage">
+              Message
+            </label>
+
+            <textarea id="contactMessage" rows="4" placeholder="Tell us how we can help…" required></textarea>
+
+            <span class="form-error" id="contactMessageError"></span>
+
+          </div>
+
+          <button type="submit" class="btn btn--primary">
+            Send Message
+          </button>
+
+          <p class="form-message" id="contactFormMessage" role="status" aria-live="polite"></p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+
+  <footer class="site-footer">
+
+    <div class="section-inner footer__inner">
+
+      <div class="footer__brand">
+
+        <p class="footer__logo" data-brand-name>
+          Petal and Stem
+        </p>
+
+        <p>
+          Handcrafted blooms that last forever.
+        </p>
+
+        <p>
+          Handmade with love in Lupon.
+        </p>
+
+        <div class="social-links">
+
+          <!-- <a href="https://instagram.com/yourflowerstudio" target="_blank" rel="noopener noreferrer"
+            aria-label="Instagram">
+
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+
+          </a> -->
+
+          <a href="https://www.facebook.com/profile.php?id=61580605341619" target="_blank" rel="noopener noreferrer"
+            aria-label="Facebook">
+
+            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+
+          </a>
+
+          <a href="https://www.tiktok.com/@christine.ramada?_r=1" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+
+            <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="footer__col">
+
+        <h3>
+          Shop
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="#shop" data-filter-link="bouquets">
+              Satin Ribbon Bouquets
+            </a>
+          </li>
+
+          <li>
+            <a href="#shop" data-filter-link="arrangements">
+              Fuzzy Wire Florals
+            </a>
+          </li>
+
+          <li>
+            <a href="#collections">
+              Seasonal Special Sets
+            </a>
+          </li>
+
+          <li>
+            <a href="#custom-orders">
+              Custom Bouquets
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer__col">
+
+        <h3>
+          Studio
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="#about">
+              About Us
+            </a>
+          </li>
+
+          <li>
+            <a href="#collections">
+              Collections
+            </a>
+          </li>
+
+          <li>
+            <a href="#custom-orders">
+              How to Order
+            </a>
+          </li>
+
+          <li>
+            <a href="#contact">
+              Contact
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer__col">
+
+        <h3>
+          Customer Care
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="#contact">
+              Pickup & Delivery
+            </a>
+          </li>
+
+          <li>
+            <a href="#custom-orders">
+              Pre-Order Information
+            </a>
+          </li>
+
+          <li>
+            <a href="#contact">
+              FAQ
+            </a>
+          </li>
+
+          <li>
+            <a href="#contact">
+              Message Us
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+
+      <p>
+        &copy;
+        <span id="year"></span>
+        Petal and Stem.
+        All rights reserved.
+      </p>
+
+    </div>
+
+  </footer>
+
+  <!-- ============ CART DRAWER ============ -->
+
+  <div class="drawer-overlay" id="cartOverlay"></div>
+
+  <aside class="cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-labelledby="cartTitle"
+    aria-hidden="true">
+
+    <div class="cart-drawer__header">
+
+      <h2 id="cartTitle">
+        Your Bouquet Bag
+      </h2>
+
+      <button class="icon-btn" id="cartClose" aria-label="Close bouquet bag">
+
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+
+      </button>
+
+    </div>
+
+    <div class="cart-drawer__body" id="cartBody"></div>
+
+    <div class="cart-drawer__footer" id="cartFooter">
+
+      <div class="cart-drawer__row">
+
+        <span>
+          Estimated total
+        </span>
+
+        <span id="cartSubtotal">
+          ₱0.00
+        </span>
+
+      </div>
+
+      <button class="btn btn--primary btn--full" id="checkoutBtn">
+        Message to Order
+      </button>
+
+    </div>
+
+  </aside>
+
+  <!-- ============ PRODUCT MODAL ============ -->
+
+  <div class="modal-overlay" id="productModalOverlay"></div>
+
+  <div class="modal product-modal" id="productModal" role="dialog" aria-modal="true" aria-labelledby="productModalTitle"
+    aria-hidden="true">
+
+    <button class="icon-btn modal-close" id="productModalClose" aria-label="Close product details">
+
+      <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+
+    </button>
+
+    <div class="product-modal__body" id="productModalBody"></div>
+
+  </div>
+
+  <!-- ============ CUSTOM BOUQUET MODAL ============ -->
+
+  <div class="modal-overlay" id="customModalOverlay"></div>
+
+  <div class="modal custom-modal" id="customModal" role="dialog" aria-modal="true" aria-labelledby="customModalTitle"
+    aria-hidden="true">
+
+    <button class="icon-btn modal-close" id="customModalClose" aria-label="Close custom bouquet form">
+
+      <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+
+    </button>
+
+    <div class="custom-modal__body">
+
+      <h2 id="customModalTitle">
+        Tell Us Your Bouquet Idea
+      </h2>
+
+      <p class="custom-modal__note">
+        Tell us a little about what you're looking for.
+        We'll create an order request you can copy and send to us
+        through your preferred messaging app.
+      </p>
+
+      <form id="customOrderForm" novalidate>
+
+        <div class="form-row">
+
+          <label for="customName">
+            Your Name
+          </label>
+
+          <input type="text" id="customName" placeholder="Your name" required>
+
+          <span class="form-error" id="customNameError"></span>
+
+        </div>
+
+        <div class="form-row">
+
+          <label for="customOccasion">
+            What are you celebrating?
+          </label>
+
+          <select id="customOccasion" required>
+
+            <option value="">
+              Select an occasion
+            </option>
+
+            <option value="Birthday">
+              Birthday
+            </option>
+
+            <option value="Graduation">
+              Graduation
+            </option>
+
+            <option value="Anniversary">
+              Anniversary
+            </option>
+
+            <option value="Valentines Day">
+              Valentine's Day
+            </option>
+
+            <option value="Mothers Day">
+              Mother's Day
+            </option>
+
+            <option value="Teachers Day">
+              Teachers' Day
+            </option>
+
+            <option value="Gift">
+              Gift
+            </option>
+
+            <option value="Just Because">
+              Just Because
+            </option>
+
+            <option value="Other">
+              Other
+            </option>
+
+          </select>
+
+          <span class="form-error" id="customOccasionError"></span>
+
+        </div>
+
+        <div class="form-row form-row--split">
+
+          <div>
+
+            <label for="customColors">
+              Preferred colors
+            </label>
+
+            <input type="text" id="customColors" placeholder="Pink, white, pastel…">
+
+          </div>
+
+          <div>
+
+            <label for="customFlowerType">
+              Flower style
+            </label>
+
+            <select id="customFlowerType">
+
+              <option value="Satin ribbon">
+                Satin ribbon
+              </option>
+
+              <option value="Fuzzy wire">
+                Fuzzy wire
+              </option>
+
+              <option value="Mixed">
+                Mixed
+              </option>
+
+              <option value="No preference">
+                Surprise me
+              </option>
+
+            </select>
+
+          </div>
+
+        </div>
+
+        <div class="form-row">
+
+          <label for="customBudget">
+            Your budget
+          </label>
+
+          <select id="customBudget">
+
+            <option value="Under ₱500">
+              Under ₱500
+            </option>
+
+            <option value="₱500 – ₱1,000">
+              ₱500 – ₱1,000
+            </option>
+
+            <option value="₱1,000 – ₱1,500">
+              ₱1,000 – ₱1,500
+            </option>
+
+            <option value="₱1,500+">
+              ₱1,500+
+            </option>
+
+            <option value="Not sure yet">
+              I'm not sure yet
+            </option>
+
+          </select>
+
+        </div>
+
+        <div class="form-row">
+
+          <label for="customMessage">
+            Tell us more
+          </label>
+
+          <textarea id="customMessage" rows="4"
+            placeholder="Tell us what you're imagining, who it's for, preferred size, wrapping style, or anything else you'd like us to know…"></textarea>
+
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--full">
+
+          <i class="fa-regular fa-clipboard" aria-hidden="true"></i>
+
+          Create Order Request
+
+        </button>
+
+        <p class="form-message" id="customFormMessage" role="status" aria-live="polite"></p>
+
+        <p class="custom-modal__note">
+          Custom bouquets require pre-ordering.
+          We'll confirm the final design, price, availability,
+          and pickup/delivery arrangements with you before your
+          order is made.
+        </p>
+
+      </form>
+
+    </div>
+
+  </div>
+
+  <!-- ============ TOAST ============ -->
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
