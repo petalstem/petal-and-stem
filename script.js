@@ -66,9 +66,9 @@
 
     {
       id: 1,
-      name: 'Round Satin Roses',
+      name: 'Round forget-me-nots',
       category: 'bouquets',
-      price: 600,
+      price: 500,
       description:
         'A beautiful round bouquet of handmade satin ribbon roses, carefully arranged for a full and elegant look.',
       image: 'assets/img/products/blue.jpg',
