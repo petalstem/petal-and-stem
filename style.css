@@ -133,6 +133,15 @@ section{padding:88px 0;}
   background:transparent;
   transition:background var(--transition), box-shadow var(--transition), padding var(--transition);
 }
+/* ---------- SCROLL OFFSET FOR STICKY HEADER ---------- */
+#home,
+#shop,
+#collections,
+#about,
+#custom-orders,
+#contact{
+  scroll-margin-top:100px;
+}
 .site-header.is-scrolled{
   background:rgba(248,244,236,0.92);
   backdrop-filter:blur(10px);
@@ -869,6 +878,15 @@ section{padding:88px 0;}
   .modal{width:94vw;max-height:92vh;}
   .product-modal__body,.custom-modal__body{padding:0 18px 24px;}
   .modal-close{margin:12px 6px 0 0;}
+  
+  #home,
+  #shop,
+  #collections,
+  #about,
+  #custom-orders,
+  #contact{
+    scroll-margin-top:80px;
+  }
 }
 
 /* ---- 360px ---- */
