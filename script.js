@@ -371,15 +371,13 @@
 
       card.innerHTML =
 
-        '<div class="product-card__media" data-open-product="' +
-        product.id +
-        '">' +
+        '<div class="product-card__media">' +
 
         '<img src="' +
         product.image +
         '" alt="' +
         escapeHtml(product.name) +
-        '" loading="lazy" onerror="this.style.display=\'none\'">' +
+        '" loading="lazy" onerror="this.style.visibility=\'hidden\'">' +
 
         '<button ' +
         'type="button" ' +
@@ -412,9 +410,7 @@
 
         '<div class="product-card__body">' +
 
-        '<h3 data-open-product="' +
-        product.id +
-        '">' +
+        '<h3>' +
         escapeHtml(product.name) +
         '</h3>' +
 
@@ -673,17 +669,6 @@
       }
 
 
-      const openTarget =
-        event.target.closest('[data-open-product]');
-
-      if (openTarget) {
-
-        openProductModal(
-          Number(openTarget.dataset.openProduct)
-        );
-
-      }
-
     });
 
   }
@@ -697,6 +682,8 @@
     ) {
       return;
     }
+
+    closeMenu();
 
     const product = products.find(function (item) {
       return item.id === id;
@@ -720,7 +707,7 @@
       'alt="' +
       escapeHtml(product.name) +
       '" ' +
-      'onerror="this.style.display=\'none\'">' +
+      'onerror="this.style.visibility=\'hidden\'">' +
 
       '<div>' +
 
@@ -1016,9 +1003,7 @@
 
     renderCart();
 
-    showToast(
-      product.name + ' added to your bouquet.'
-    );
+    showToast('Added to your bouquet.');
 
     animateCartIcon();
 
@@ -1163,7 +1148,7 @@
           escapeHtml(product.name) +
           '" ' +
           'loading="lazy" ' +
-          'onerror="this.style.display=\'none\'">' +
+          'onerror="this.style.visibility=\'hidden\'">' +
 
           '<div>' +
 
@@ -1290,6 +1275,8 @@
   function openCart() {
 
     if (!cartDrawer) return;
+
+    closeMenu();
 
     cartDrawer.classList.add('is-open');
 
@@ -1782,6 +1769,8 @@
   function openCustomModal() {
 
     if (!customModal) return;
+
+    closeMenu();
 
     lastFocusedCustom =
       document.activeElement;
